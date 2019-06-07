@@ -23,4 +23,5 @@ class String
       word.end_with?(".") || word.end_with?("?") || word.end_with?("!")
     }.length
   end
+  
 end
