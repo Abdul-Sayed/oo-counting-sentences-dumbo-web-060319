@@ -19,7 +19,7 @@ class String
   end
 
   def count_sentences
-    self.split.select { |word|
+    self.split(" ").select { |word|
       word.end_with?(".") || word.end_with?("?") || word.end_with?("!")
     }.length
   end
